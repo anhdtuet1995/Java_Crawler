@@ -1,8 +1,8 @@
 ﻿# Hệ thống lấy dữ liệu trang quancafe.vn
 
-## Clone project
+### Clone project
 
-## Copy thư mục chromedriver vào ổ C, rồi thay đổi dòng sau trong hàm setUp()
+### Copy thư mục chromedriver vào ổ C, rồi thay đổi dòng sau trong hàm setUp()
 ```
 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Anh\\Desktop\\chromedriver_win32\\chromedriver.exe"); 
 ```
@@ -11,11 +11,11 @@ Thành
 System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe"); 
 ```
 
-## Add các thư viện trong mục library vào project
+### Add các thư viện trong mục library vào project
 
-## Chạy chương trình, chờ cho đến khi hoàn thành tiến trình. Trên trình duyệt Chrome, ấn F12 chọn Console, chuột phải vào nội dung console, chọn Save As rồi lưu lại vào project với tên là logcf2.log.
+### Chạy chương trình, chờ cho đến khi hoàn thành tiến trình. Trên trình duyệt Chrome, ấn F12 chọn Console, chuột phải vào nội dung console, chọn Save As rồi lưu lại vào project với tên là logcf2.log.
 
-## Mở file ScrollDownUp.java
+### Mở file ScrollDownUp.java
 Comment lại đoạn sau :
 ```
 HandleLogFile h = new HandleLogFile();
@@ -42,4 +42,4 @@ và
 // while(a.indexOf("\"Name\"") > 0);
 ```
 
-## Ổ D xuất hiện 1 file output.xls. Đây là dữ liệu mà ta cần get
+### Ổ D xuất hiện 1 file output.xls. Đây là dữ liệu mà ta cần get
